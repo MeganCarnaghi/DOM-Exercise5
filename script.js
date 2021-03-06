@@ -66,7 +66,7 @@ function parentDivClicks(event) {
   if (event.target.id === "lose") {
     // If square with ID of "lose" is clicked, turn red.
     lose.style.backgroundColor = "#ee1d24";
-    skullImg.setAttribute("src", "skull.png");
+    skullImg.setAttribute("src", "images/skull.png");
     // Select all green squares loop through them and turn them yellow
     const greenSquares = document.querySelectorAll(".green");
     for (let greenSquare of greenSquares) {
@@ -78,7 +78,7 @@ function parentDivClicks(event) {
   // if square with ID of "win" is clicked, show smiley face and pop-up modal
   if (event.target.id === "win") {
     win.style.backgroundColor = "#000000";
-    smileImg.setAttribute("src", "smileyface.png");
+    smileImg.setAttribute("src", "images/smileyface.png");
     // Show pop-up modal
     modal.classList.add("is-visible");
     // remove event listener on parent div

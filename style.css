@@ -23,12 +23,12 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("sunlight-hill-grass-sky-field-green-33549-wallhere.com.jpg");
+  background: url("images/sunlight-hill-grass-sky-field-green-33549-wallhere.com.jpg");
   background-size: cover;
 }
 
 .background__div {
-  background: url("minesweeper.png");
+  background: url("images/minesweeper.png");
   height: 60%;
   width: 60%;
   background-repeat: no-repeat;
@@ -168,12 +168,8 @@ p {
   }
 
   .modal-dialog {
-    position: relative;
     width: 400px;
     height: 325px;
-    overflow: hidden;
-    cursor: default;
-    text-align: center;
   }
 
   .wingame__pic {
