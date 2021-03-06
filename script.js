@@ -26,7 +26,7 @@ const lose = document.getElementById("lose");
 // create a variable for the skull image
 const skullImg = document.createElement("img");
 // change size of skull image
-skullImg.width = "75";
+skullImg.width = "90";
 // append img to div with id of "lose"
 lose.appendChild(skullImg);
 
@@ -53,7 +53,7 @@ const win = document.getElementById("win");
 // create a variable for the skull image
 const smileImg = document.createElement("img");
 // change size of skull image
-smileImg.width = "75";
+smileImg.width = "90";
 // append img to div with id of "lose"
 win.appendChild(smileImg);
 
