@@ -10,6 +10,10 @@
 - CSS
 - JavaScript
 
+## Link to Deployed Application
+
+<https://megancarnaghi.github.io/Minesweeper-DOM-Exercise/>
+
 ## Screenshot
 
 ![minesweeper](images/screenshot.jpg)
