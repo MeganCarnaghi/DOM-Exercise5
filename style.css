@@ -9,10 +9,6 @@
   src: url(SEGOEUI.TTF);
 }
 
-html {
-  background-color: #000000;
-}
-
 p {
   font-size: 20px;
 }
@@ -29,8 +25,8 @@ p {
 
 .background__div {
   background: url("images/minesweeper.png");
-  height: 60%;
-  width: 60%;
+  height: 80%;
+  width: 80%;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -39,8 +35,7 @@ p {
 }
 
 .parent__div {
-  margin-top: 4%;
-  /* margin-right: 1%; */
+  margin-top: 2%;
   height: 400px;
   width: 400px;
   border-radius: 5px;
@@ -76,7 +71,6 @@ p {
 }
 
 .startOver__btn {
-  margin: 20px;
   padding: 7px 10px;
   font-size: 16px;
   box-shadow: 0px 0px 5px #000000;
@@ -165,5 +159,8 @@ p {
 
   .wingame__pic {
     width: 350px;
+  }
+  .parent__div {
+    margin-top: 6%;
   }
 }
