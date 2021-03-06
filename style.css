@@ -40,12 +40,9 @@ p {
 
 .parent__div {
   margin-top: 4%;
-  margin-right: 1%;
+  /* margin-right: 1%; */
   height: 400px;
   width: 400px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   border-radius: 5px;
 }
 
@@ -53,8 +50,6 @@ p {
   height: 100px;
   display: flex;
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
 }
 
 .rowChild__div {
@@ -93,10 +88,6 @@ p {
   width: 450px;
   margin: 20px 0;
   border-radius: 10px;
-}
-
-#win {
-  align-self: center;
 }
 
 /* MODAL
